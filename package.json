@@ -24,5 +24,15 @@
     "nan": "^2.3.5",
     "node-gyp": "^3.3.1"
   },
-  "keywords": ["sql", "postgres", "postgresql", "pg", "query", "database"]
+  "keywords": ["sql", "postgres", "postgresql", "pg", "query", "database"],
+  "files": [
+    "binding.gyp",
+    "functions.cc",
+    "functions.h",
+    "index.js",
+    "libpg_query/include/pg_query.h",
+    "libpg_query/linux/libpg_query.a",
+    "libpg_query/osx/libpg_query.a",
+    "pg-query.cc"
+  ]
 }
